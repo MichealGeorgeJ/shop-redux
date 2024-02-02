@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
-import NavBar from './components/NavBar';
+import NavBar from './components/Navbar';
 import Products from './components/Products';
 import Cart from './components/Cart';
 
